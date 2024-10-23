@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+ 2 int main()
+
+ 3 { int num;
+
+ 4 printf("Even Odd Finder\n");
+
+ 5 printf("Enter the number.\n");
+
+ 6 scanf("%d",&num);
+
+ 7 if(num%2==0)
+
+ 8 {printf("%d is even.\n",num);}
+
+ 9 else
+
+10 {printf("%d is odd.\n",num);}
+
+11 return 0;
+
+12 }
