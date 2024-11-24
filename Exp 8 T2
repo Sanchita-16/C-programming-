@@ -1,0 +1,33 @@
+/*Aim: WAP to check if the entered string is pallindrome or not.
+
+Name : Sanchita Sankpal 
+
+Roll no: 22
+
+UIN: 241A023
+
+Division: A*/
+
+#include<stdio.h>
+
+int main()
+
+{ char str[100];
+
+printf("\t\t\t** Pallindrome Finder **\n\n\n");
+
+int i;
+
+printf("\n Enter Your String: "); gets(str);
+
+for(i=0; i<strlen(str) 1; i++) 
+
+{ if(str[i] != str[strlen(str)1-1]) {
+
+return 0; }
+
+printf("The String is NOT a Palindrome");} 
+
+printf("\n The String is Pallindrome.");
+
+return 0; }
